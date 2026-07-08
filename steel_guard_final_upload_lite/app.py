@@ -479,7 +479,7 @@ def clamp_values():
 def show_header():
     st.markdown(f"<h1 class='game-title'>{GAME_TITLE}</h1>", unsafe_allow_html=True)
     st.markdown(f"<p class='subtitle'>{GAME_SUBTITLE}</p>", unsafe_allow_html=True)
-    st.markdown(f"<p class='subtitle' style='font-size:15px; color:#bfdbfe; font-weight:800;'>合作單位｜{COMPANY_LINE}</p>", unsafe_allow_html=True)
+ 
 
 
 def show_status():
