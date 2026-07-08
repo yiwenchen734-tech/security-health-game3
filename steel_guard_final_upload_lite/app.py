@@ -357,7 +357,7 @@ LEVELS = [
         "question": "你會怎麼讓身體不要一起進入警報狀態？",
         "options": [
             {
-                "text":  肩膀聳高、憋氣、整個人僵住，先撐過去再說。",
+               "text": "肩膀聳高、憋氣、整個人僵住，先撐過去再說。",
                 "correct": False,
                 "damage": 20,
                 "sense": 0,
