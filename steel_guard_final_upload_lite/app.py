@@ -183,6 +183,26 @@ hr {
     margin-top: -8px;
     margin-bottom: 20px;
 }
+
+/* radio 選項文字顏色 */
+div[role="radiogroup"] label,
+div[role="radiogroup"] label p {
+    color: #e6edf3 !important;
+}
+
+/* radio 整區背景 */
+div[data-testid="stRadio"] {
+    background: rgba(15, 23, 42, 0.95);
+    border: 1px solid #334155;
+    border-radius: 16px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+}
+
+div[data-testid="stRadio"] label,
+div[data-testid="stRadio"] p {
+    color: #e6edf3 !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
